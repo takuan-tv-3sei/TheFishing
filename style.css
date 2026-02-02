@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7FB3D5;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: none;
+}
+
+canvas {
+    border: 2px solid #000;
+    background-color: #9FE4F8;
+    width: min(100vw, 800px);
+    height: auto;
+    max-height: 100vh;
+    display: block;
+    touch-action: none;
+}
